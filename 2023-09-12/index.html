@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Postta urlde adresi görmezsin ama get te gönderirsin ve query string görünür -->
+<body>
+    <form action="/veriisle.php" method="post">
+        <label>Adınız:</label>
+        <input type="text" id="ad" name="adi" placeholder="Adınız Giriniz"> 
+        <br>
+        <label>Soyadınız: </label>
+        <input type="text" id="soyad",name="soyadi" placeholder="Soyadınızı Giriniz">
+        <br>
+        <label>Email: </label>
+        <input type="email" id="email",name="email" placeholder="Email Giriniz">
+        <br>
+        <label>Pass: </label>
+        <input type="password" id="password",name="password" placeholder="Şifre Giriniz">
+        <br>
+        <input type="button" value="Gönder1">
+        <input type="submit" value="Gönder2"> <!--servera işlem göndermek için submit-->
+    </form>
+</body>
+
+</html>
