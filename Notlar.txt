@@ -1,0 +1,14 @@
+Request
+    -Bir istemcinin(web tarayıcısı) sunucuya gönderdiği isteğin adıdır.
+
+Response(Yanıt)
+    -Sunucunu  bir isteğe(request) yanıt olarakgönderdiği verilerin adıdır.
+    -Status Code(Örnek: -100-200-300-400-500)
+
+HTTP Metotları
+    -GET => Serverdan belirli bir veri kaynağı almak için kullanılır. HTTP GET isteği sunucuya bir url iletir ve 
+            sunucuda bu url ye karşılık gelen kaynağa(data) istemciye göndrerir.
+    -POST => Server'a veri göndermek için kullanılır. Post isteği veriyi HTTP isteği gövdesine yerleştirir ve bu veriyi
+             sunucuya ileterek işlem yapmasını sağlar.
+    -PUT => Güncellemek amacı ile yapılır.
+    -DELETE => Sunucudan veri kaldırma.
